@@ -1,0 +1,29 @@
+.box {
+  width: 600px;
+  background-color: #fff8da;
+  padding: 40px 30px;
+  margin: 100px auto;
+  border: 8px dashed #ffb096;
+  outline: 10px dotted #F7418F;
+  outline-offset: 12px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+p {
+  color: #666;
+  line-height: 35px;
+  letter-spacing: 5px;
+  font-size: larger;
+  text-indent: 50px;
+  text-decoration: underline;
+}
+a {
+  float: right;
+  color: #666;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
