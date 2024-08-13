@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px;
+  margin: 20px auto;
+  width: 900px;
+}
+.container {
+  background-color: #f2f2f2;
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 40px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.f-name,
+.l-name,
+.select,
+.subject {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.f-name {
+  margin: 0;
+  margin-bottom: 30px;
+}
+input,
+textarea,
+select {
+  width: 600px;
+  border: 1px solid #a8a8a8dd;
+  border-radius: 4px;
+  padding: 13px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  cursor: pointer;
+  -o-border-radius: 4px;
+}
+input,
+select {
+  height: 45px;
+}
+textarea {
+  height: 200px;
+  resize: none;
+}
+h3 {
+  font-weight: 500;
+  font-size: 22px;
+}
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+.submit input {
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  float: right;
+  background-color: rgb(35, 183, 114);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  border: 0;
+}
+.submit input:hover {
+  background-color: rgb(27, 143, 89);
+}
+@media (max-width: 935px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+  }
+  h1 {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 40px;
+  }
+  .f-name,
+  .l-name,
+  .select,
+  .subject {
+    display: block;
+  }
+  input,
+  textarea,
+  select {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .submit {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .submit input {
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    float: right;
+    background-color: rgb(35, 183, 114);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    border: 0;
+  }
+}

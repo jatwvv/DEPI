@@ -1,0 +1,30 @@
+.container {
+  width: 1000px;
+  position: relative;
+}
+img {
+  position: absolute;
+  z-index: -1;
+  left: 50px;
+  top: 30px;
+}
+ span{
+  display: inline-block;
+  background-color: rgb(192, 255, 193);
+  border: 1px solid rgb(229, 255, 0);
+  font-size: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.para .text {
+  display: none;
+  background-color: rgba(67, 184, 104, 0.515);
+}
+.para:hover .text {
+  display: block;
+}
+.paraTwo {
+  height: 150px;
+  overflow-y: scroll;
+  background-color: rgba(67, 184, 104, 0.427);
+}

@@ -1,0 +1,55 @@
+body {
+  width: 600px;
+  margin: 20px;
+}
+.first {
+  margin-bottom: 30px;
+}
+.first::first-letter {
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+}
+.first::first-line {
+  color: red;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.second::first-line {
+  color: green;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.second::before {
+  content: ""; 
+  background-image: url(1.png);
+  background-size: 200px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.second::after {
+  content: "";
+  background-image: url(1.png);
+  background-size: 200px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+ul li {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.one li::marker {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+.two li {
+  list-style-type: decimal;
+}
+.two li::marker {
+  color: rgb(119, 0, 0);
+  font-size: 30px;
+}

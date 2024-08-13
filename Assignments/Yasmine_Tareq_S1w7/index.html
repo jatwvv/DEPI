@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yasmine Tareq | S1 W7</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="f-number">
+        <label>First Number</label>
+        <input type="number" id="inputOne" />
+      </div>
+      <div class="s-number">
+        <label>Second Number</label>
+        <input type="number" id="inputTwo" />
+      </div>
+      <div class="btns">
+        <button onclick="subtraction()" type="button"><img src="icon/minus.svg"></button>
+        <button onclick="addition()" type="button"><img src="icon/plus.svg"></button>
+        <button onclick="division()" type="button"><img src="icon/divide.svg"></button>
+        <button onclick="multiplication()" type="button"><img src="icon/xmark.svg"></button>
+      </div>
+      
+      <p id="resultone"></p>
+      <script>
+       
+      </script>
+      <div class="circle">
+        <label>Circle radius</label>
+        <input type="number" id="inputCircle" />
+      </div>
+      <button
+        style="width: fit-content; padding: 20px 15px; line-height: 2px"
+        type="button"
+        onclick="circle()"
+      >
+        Area of Circle
+      </button>
+      <br />
+      <p id="resulttwo"></p>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
